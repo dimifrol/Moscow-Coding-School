@@ -1,0 +1,23 @@
+p {
+  /*animation-duration: 3s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;*/
+  animation: slidein 5s forwards ease-in-out;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  50% {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  100% {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
